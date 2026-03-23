@@ -10,7 +10,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--files",
         nargs="+",
         required=True,
-        help="Пути к одному или нескольким файлам",
+        help="Пути к одному или нескольким CSV-файлам",
     )
     
     parser.add_argument(
